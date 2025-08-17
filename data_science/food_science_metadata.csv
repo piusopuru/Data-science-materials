@@ -1,0 +1,10 @@
+Column Name,Data Type,Description
+Sample_ID,String,Unique identifier for each food sample
+Food_Type,Categorical,Type/category of food being tested
+Moisture_Content,Float,Percentage of water content in the sample
+Protein_Content,Float,Percentage of protein content in the sample
+Fat_Content,Float,Percentage of fat content in the sample
+Storage_Method,Categorical,"Method of storage (e.g., Refrigerated, Ambient)"
+Storage_Days,Integer,Number of days stored before assessment
+Mold_Score,Integer,"Mold growth score (0 = none, 10 = heavy mold)"
+Acceptable_YN,Binary (Yes/No),Whether the food is still considered acceptable
